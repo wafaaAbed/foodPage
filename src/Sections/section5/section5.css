@@ -1,0 +1,12 @@
+.section5{
+  max-width: 65%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.section5 h1{
+  color:var(--mainColor);
+}

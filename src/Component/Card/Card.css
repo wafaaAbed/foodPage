@@ -1,0 +1,36 @@
+.menue{
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+  justify-content: center;
+  z-index: 0;
+  gap: 15px;
+}
+
+
+.price{
+  font-weight: bold;
+  color: var(--mainColor);
+}
+.priceBefore{
+  color:rgb(173, 173, 173);
+}
+
+.card-title{
+  color:var(--mainColor) !important;
+}
+@media (max-width: 991.98px) {
+  .menue{
+    grid-template-columns: repeat(2,50%);
+  row-gap: 50px;
+  }
+
+}
+@media (max-width: 767.98px) { 
+  .menue{
+    grid-template-columns: repeat(1,90%);
+  row-gap: 50px;
+  }
+  .card-body{
+    text-align: center !important;
+  }
+}

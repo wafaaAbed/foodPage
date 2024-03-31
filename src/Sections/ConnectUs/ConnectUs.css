@@ -1,0 +1,43 @@
+.connectUs{
+  width: 100%;
+  height: auto;
+
+  max-width: 50%;
+  margin: 0 auto 100px;
+}
+.headConnect{
+  text-align: center;
+  padding: 20px;
+  color: var(--mainColor);
+}
+.emailAddress{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+.emailAddress input{
+  padding: 10px 20px;
+  width: 400px;
+  border: 3px solid rgb(177, 175, 175);
+}
+.emailAddress input:focus,.emailAddress input:active{
+border: 3px solid var(--mainColor);
+outline: none;
+}
+.emailAddress input::placeholder{
+  font-weight: bolder;
+}
+@media (max-width: 767.98px) { 
+  .connectUs{
+    max-width: 80%;
+  }
+  @media (max-width: 575.98px) {
+    .emailAddress{
+      flex-direction: column;
+    }
+    .emailAddress input{
+      margin-bottom: 20px;
+    }
+   }
+ }

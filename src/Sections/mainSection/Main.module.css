@@ -1,0 +1,72 @@
+.containerMain {
+  /* overflow: hidden !important; */
+  width: 100%;
+  height: auto !important;
+
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgcontainer {
+  width: 55% !important;
+}
+.mainContent {
+  padding: 100px 10px 100px 10px !important;
+
+  width: 40% !important;
+  text-align: left;
+}
+.btns {
+  padding: 7px 15px;
+  border: 3px solid var(--mainColor);
+  transition: 0.4s all ease-in-out;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  border: 3px solid #fff;
+  box-shadow: 1px 1px 8px 1px #c9c9c9;
+}
+
+.btns:hover {
+  color: var(--mainColor);
+
+  border: 3px solid var(--mainColor);
+}
+
+.picFormat {
+  width: 100%;
+}
+.header {
+  color: rgb(126, 34, 55);
+  font-family: "Quicksand", sans-serif;
+  font-size: 45px;
+}
+.containerBtns button{
+margin: 10px;
+}
+
+
+@media (max-width: 991.98px) {
+  .containerMain {
+    flex-direction: column-reverse;
+  }
+  .mainContent {
+    width: 90% !important;
+    text-align: center;
+  }
+  .containerBtns button {
+    margin:10px;
+    
+  }
+  .header {
+  
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .header{
+    font-size: 34px;
+  }
+
+}

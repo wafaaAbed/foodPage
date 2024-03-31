@@ -1,0 +1,41 @@
+.containerContent{
+  width: 100%;
+  margin: 100px 0px 10px 0px;
+  overflow-x: hidden;
+}
+.imgformat{
+  width: 50%;
+
+}
+.sectionContent{
+  width: 50%;
+  padding-top: 20px;
+  text-align: left;
+padding-left: 20px;
+}
+.imgformat img{
+  width: 100%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.header {
+  color: rgb(126, 34, 55);
+  font-family: "Quicksand", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+@media (max-width: 991.98px) {
+  .containerContent{
+    flex-direction: column;
+    justify-content: center ;
+    margin: 50px auto;
+  }
+  .sectionContent {
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+}
+.imgformat {
+  width: 100%;
+}
+}

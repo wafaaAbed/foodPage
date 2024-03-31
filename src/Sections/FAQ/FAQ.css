@@ -1,0 +1,25 @@
+.qHead{
+  position: relative;
+  color: var(--mainColor);
+
+}
+.qHead::before{
+  content: "~";
+  padding-right: 7px;
+  font-size: 35px;
+  color:var(--mainColor);
+  position:relative;
+  top:5px;
+  left:0;
+}
+@media (max-width: 575.98px) {
+  .FQAFormat{
+    flex-direction: column;
+    
+  }
+  .FQAFormat .row-cols-2>* {
+
+    width: 100% !important;
+    text-align: center;
+}
+ }

@@ -1,0 +1,24 @@
+
+
+.navStyle{
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  padding: 2px 20px;
+  box-shadow: 3px 3px 10px 3px #cbcbcb;
+  z-index: 111;
+}
+
+.logo{
+  width:100%;
+}
+.navLinks a{
+  color:var(--mainColor) !important;
+  font-size: 15px;
+  font-weight: bold ;
+}
+a:hover{
+  color:rgb(126, 34, 55) !important;
+}
